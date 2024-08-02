@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Product</h1>
+            <p>The best solution for your needs</p>
+            <button id="learn-more">Learn More</button>
+        </div>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <div class="features-container">
+            <div class="feature">
+                <h3>Feature One</h3>
+                <p>Description of feature Basic Plan.</p>
+            </div>
+            <div class="feature">
+                <h3>Feature Two</h3>
+                <p>Description of feature Standard Plan.</p>
+            </div>
+            <div class="feature">
+                <h3>Feature Three</h3>
+                <p>Description of feature Premium Plan.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <div class="pricing-table">
+            <div class="pricing-option">
+                <h3>Basic</h3>
+                <p>RS 150/month</p>
+            </div>
+            <div class="pricing-option">
+                <h3>Standard</h3>
+                <p>RS 300/month</p>
+            </div>
+            <div class="pricing-option">
+                <h3>Premium</h3>
+                <p>RS 450/month</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
